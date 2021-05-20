@@ -12,12 +12,12 @@ export default function App() {
           <Route
             path="/"
             exact
-            render={(routerProps) => <HeyArnold {...routerProps}/> }
+            component={HeyArnold}
             />
            <Route
             path="/:id"
             exact
-            render={(routerProps) => <HeyArnoldDetail {...routerProps}/> }
+            component={HeyArnoldDetail} 
             />
         </Switch>
       </Router>

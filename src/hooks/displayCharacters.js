@@ -3,16 +3,16 @@ import { findCharacters, findCharacter } from '../services/HeyArnoldApi';
 import { useParams } from 'react-router-dom';
 
 export const useCharacters = () => {
-  //   const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
-    findCharacters().then((characters) => setCharacters(characters));
-    //   .finally(() => setLoading(false));
+    findCharacters()
+      .then(setCharacters)
+      .finally(() => setLoading(false));
   }, []);
 
-  //   if (loading) return <h1>Loading...</h1>;
-  return characters;
+  return { loading, characters };
 };
 
 export const useCharacter = () => {

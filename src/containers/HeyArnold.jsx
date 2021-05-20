@@ -4,7 +4,8 @@ import CharacterList from '../components/characters/CharacterList'
 import { useCharacters } from '../hooks/displayCharacters'
 
 const HeyArnold = () => {
- const characters = useCharacters(); 
+ const {loading, characters} = useCharacters(); 
+ if (loading) return <h1>Loading...</h1>
 
     return <CharacterList characters={characters} />;
 };

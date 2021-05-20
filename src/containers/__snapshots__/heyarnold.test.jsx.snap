@@ -1,32 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hey Arnold Container Tests displays hey arnold character/quotes on load 1`] = `
+exports[`Hey Arnold Container displays hey arnold character/quotes on load 1`] = `
 <ul
   aria-label="character-list"
 >
   <li>
     <a
-      href="/5da237699734fdcb7bef8f5c"
+      href="/5da237699734fdcb7bef8f51"
     >
       <img
-        alt="Nancy"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/6/62/Nancy.jpg/revision/latest/scale-to-width-down/310?cb=20110423055923"
+        alt="Arnold Shortman"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/f/f5/Arnold.png/revision/latest?cb=20181027162333"
       />
       <p>
-        Nancy
-      </p>
-    </a>
-  </li>
-  <li>
-    <a
-      href="/5da237699734fdcb7bef8f59"
-    >
-      <img
-        alt="Grandpa's grandfather"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/f/f7/Grandpa%27s_grandfather.png/revision/latest/scale-to-width-down/310?cb=20190228081015"
-      />
-      <p>
-        Grandpa's grandfather
+        Arnold Shortman
       </p>
     </a>
   </li>
@@ -45,92 +32,27 @@ exports[`Hey Arnold Container Tests displays hey arnold character/quotes on load
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f58"
+      href="/5da237699734fdcb7bef8f53"
     >
       <img
-        alt="Grandpa's father"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/e/e0/Grandpa%27s_father.png/revision/latest/scale-to-width-down/310?cb=20190228081112"
+        alt="Grandma Gertie"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/7/7b/DB87AC2A-C2C2-4DAB-AECF-B9F7273C746B.png/revision/latest/scale-to-width-down/306?cb=20190816101257"
       />
       <p>
-        Grandpa's father
+        Grandma Gertie
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f70"
+      href="/5da237699734fdcb7bef8f54"
     >
       <img
-        alt="Phoebe Heyerdahl"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/9/93/Phoebe_%28classic%29.png/revision/latest/scale-to-width-down/247?cb=20190816022206"
+        alt="Mitzi"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/d/d9/Mitzi.png/revision/latest/scale-to-width-down/310?cb=20171212070331"
       />
       <p>
-        Phoebe Heyerdahl
-      </p>
-    </a>
-  </li>
-  <li>
-    <a
-      href="/5da237699734fdcb7bef8f7e"
-    >
-      <img
-        alt="Eugene Horowitz"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/9/99/EAFDB121-EC13-4F12-849E-37037A95E3D6.png/revision/latest/scale-to-width-down/270?cb=20190816022130"
-      />
-      <p>
-        Eugene Horowitz
-      </p>
-    </a>
-  </li>
-  <li>
-    <a
-      href="/5da237699734fdcb7bef8f82"
-    >
-      <img
-        alt="Ray"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/3/34/Ray.png/revision/latest/scale-to-width-down/310?cb=20181006091830"
-      />
-      <p>
-        Ray
-      </p>
-    </a>
-  </li>
-  <li>
-    <a
-      href="/5da237699734fdcb7bef8f8b"
-    >
-      <img
-        alt="Shelley"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/c/cb/Shelley.jpg/revision/latest/scale-to-width-down/310?cb=20120527025256"
-      />
-      <p>
-        Shelley
-      </p>
-    </a>
-  </li>
-  <li>
-    <a
-      href="/5da237699734fdcb7bef8f76"
-    >
-      <img
-        alt="Lila Sawyer"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/b/b0/Lila_Sawyer.png/revision/latest/scale-to-width-down/310?cb=20171212053404"
-      />
-      <p>
-        Lila Sawyer
-      </p>
-    </a>
-  </li>
-  <li>
-    <a
-      href="/5da237699734fdcb7bef8f7c"
-    >
-      <img
-        alt="Uncle Stinky"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/8/89/Uncle_Stinky.jpg/revision/latest/scale-to-width-down/310?cb=20120924204406"
-      />
-      <p>
-        Uncle Stinky
+        Mitzi
       </p>
     </a>
   </li>
@@ -149,118 +71,196 @@ exports[`Hey Arnold Container Tests displays hey arnold character/quotes on load
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f66"
+      href="/5da237699734fdcb7bef8f56"
     >
       <img
-        alt="Olga Pataki"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/5/5e/Olga_Pataki.png/revision/latest/scale-to-width-down/310?cb=20180124053913"
+        alt="Miles Shortman"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/2/2e/Miles.jpg/revision/latest/scale-to-width-down/243?cb=20101115140639"
       />
       <p>
-        Olga Pataki
+        Miles Shortman
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f6b"
+      href="/5da237699734fdcb7bef8f57"
     >
       <img
-        alt="Timberly Johanssen"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/e/e8/Timberly.png/revision/latest/scale-to-width-down/310?cb=20171210045406"
+        alt="Stella Shortman"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/f/fa/Stella.jpg/revision/latest?cb=20101225143956"
       />
       <p>
-        Timberly Johanssen
+        Stella Shortman
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f6d"
+      href="/5da237699734fdcb7bef8f58"
     >
       <img
-        alt="Jerry Berman"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/2/2f/Jerry_Berman.png/revision/latest/scale-to-width-down/310?cb=20171219061306"
+        alt="Grandpa's father"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/e/e0/Grandpa%27s_father.png/revision/latest/scale-to-width-down/310?cb=20190228081112"
       />
       <p>
-        Jerry Berman
+        Grandpa's father
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f73"
+      href="/5da237699734fdcb7bef8f59"
     >
       <img
-        alt="Rhonda Wellington Lloyd"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/b/b4/C1BBB448-FE38-4F7B-98FA-2137F277F9C5.png/revision/latest/scale-to-width-down/213?cb=20190816022649"
+        alt="Grandpa's grandfather"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/f/f7/Grandpa%27s_grandfather.png/revision/latest/scale-to-width-down/310?cb=20190228081015"
       />
       <p>
-        Rhonda Wellington Lloyd
+        Grandpa's grandfather
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f78"
+      href="/5da237699734fdcb7bef8f5a"
     >
       <img
-        alt="Stinky Peterson"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/2/24/Stinky_Peterson.png/revision/latest/scale-to-width-down/310?cb=20160516072820"
+        alt="Oskar Kokoshka"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/c/c5/Oskar_Kokoshka.png/revision/latest/scale-to-width-down/310?cb=20180707032418"
       />
       <p>
-        Stinky Peterson
+        Oskar Kokoshka
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f71"
+      href="/5da237699734fdcb7bef8f5b"
     >
       <img
-        alt="Kyo Heyerdahl"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/c/cf/Kyo_Heyerdahl.png/revision/latest/scale-to-width-down/310?cb=20190310221807"
+        alt="Suzie Kokoshka"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/f/fe/Suzie.jpg/revision/latest/scale-to-width-down/310?cb=20110223003447"
       />
       <p>
-        Kyo Heyerdahl
+        Suzie Kokoshka
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f8e"
+      href="/5da237699734fdcb7bef8f5c"
     >
       <img
-        alt="Iggy"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/0/0e/Iggy.png/revision/latest/scale-to-width-down/310?cb=20190210045957"
+        alt="Nancy"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/6/62/Nancy.jpg/revision/latest/scale-to-width-down/310?cb=20110423055923"
       />
       <p>
-        Iggy
+        Nancy
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f77"
+      href="/5da237699734fdcb7bef8f5d"
     >
       <img
-        alt="Mr. Sawyer"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/4/45/Mr._Sawyer.png/revision/latest/scale-to-width-down/310?cb=20171219055204"
+        alt="Ernie Potts"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/6/67/Ernie.jpeg/revision/latest/scale-to-width-down/310?cb=20181213181427"
       />
       <p>
-        Mr. Sawyer
+        Ernie Potts
       </p>
     </a>
   </li>
   <li>
     <a
-      href="/5da237699734fdcb7bef8f84"
+      href="/5da237699734fdcb7bef8f5e"
     >
       <img
-        alt="Thaddeus \\"Curly\\" Gammelthorpe"
-        src="https://vignette.wikia.nocookie.net/heyarnold/images/b/ba/Classic_Curly_promo.png/revision/latest/scale-to-width-down/246?cb=20181010011614"
+        alt="Mr. Hyunh"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/6/60/Mr._Hyunh.png/revision/latest/scale-to-width-down/310?cb=20180707031441"
       />
       <p>
-        Thaddeus "Curly" Gammelthorpe
+        Mr. Hyunh
+      </p>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f5f"
+    >
+      <img
+        alt="Mai Hyunh"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/8/83/Mai_Hyunh.jpeg/revision/latest/scale-to-width-down/310?cb=20190118192457"
+      />
+      <p>
+        Mai Hyunh
+      </p>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f60"
+    >
+      <img
+        alt="Mr. Smith"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/8/80/Mr._Smith.jpg/revision/latest?cb=20110206233402"
+      />
+      <p>
+        Mr. Smith
+      </p>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f61"
+    >
+      <img
+        alt="Lana Vail"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/e/e8/762C69BE-23BA-48BA-9B14-6AF3246FCD3F.jpeg/revision/latest/scale-to-width-down/304?cb=20190106211607"
+      />
+      <p>
+        Lana Vail
+      </p>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f62"
+    >
+      <img
+        alt="Mr. Purdy (character)"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/9/9c/Mr._Purdy_%28character%29.jpeg/revision/latest?cb=20190125214742"
+      />
+      <p>
+        Mr. Purdy (character)
+      </p>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f63"
+    >
+      <img
+        alt="Helga G. Pataki"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/e/e5/Helga_Pataki.png/revision/latest/scale-to-width-down/266?cb=20190816021807"
+      />
+      <p>
+        Helga G. Pataki
+      </p>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5da237699734fdcb7bef8f64"
+    >
+      <img
+        alt="Robert \\"Big Bob\\" Pataki"
+        src="https://vignette.wikia.nocookie.net/heyarnold/images/8/89/Big_Bob.jpg/revision/latest/scale-to-width-down/310?cb=20170428021615"
+      />
+      <p>
+        Robert "Big Bob" Pataki
       </p>
     </a>
   </li>
