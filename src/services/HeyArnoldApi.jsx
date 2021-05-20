@@ -1,6 +1,6 @@
-export const findCharacters = async () => {
+export const findCharacters = async (page) => {
     const res = await fetch(
-        'https://hey-arnold-api.herokuapp.com/api/v1/characters'
+        `https://hey-arnold-api.herokuapp.com/api/v1/characters?perPage=3&page=${page}`
     );
     const results = await res.json(); 
 
