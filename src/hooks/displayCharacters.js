@@ -16,16 +16,16 @@ export const useCharacters = () => {
 };
 
 export const useCharacter = () => {
-  //   const [loading, setLoading] = useState(true);
-  const [character, setCharacter] = useState({});
+  const [loading, setLoading] = useState(true);
+  const [character, setCharacter] = useState(null);
 
   let { id } = useParams();
 
   useEffect(() => {
-    findCharacter(id).then((character) => setCharacter(character));
-    //   .finally(() => setLoading(false));
+    findCharacter(id)
+      .then((character) => setCharacter(character))
+      .finally(() => setLoading(false));
   }, []);
 
-  //   if (loading) return <h1>Loading...</h1>;
-  return character;
+  return { loading, character };
 };

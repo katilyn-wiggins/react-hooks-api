@@ -9,7 +9,6 @@ import HeyArnoldDetail from './HeyArnoldDetail';
 
 // import userEvent from '@testing-library/user-event'
 import CharacterDetail from '../components/characters/CharacterDetail'
-// import HeyArnoldDetail from './HeyArnoldDetail'
 
 
 const server = setupServer(
@@ -36,7 +35,6 @@ describe('Hey Arnold Container', () => {
         );
 
         const ul = await screen.findByRole('list', { name: 'character-list'})
-        console.log(ul);
         expect(ul).toMatchSnapshot(); 
     });
 });
@@ -46,10 +44,14 @@ describe('Hey Arnold Detail Character Tests', () => {
     beforeAll(() => server.listen()); 
     afterAll(() => server.close());
     it('displays a single hey arnold character on the page', async() => {
-        // render(<HeyArnoldDetail />);
-        render(<CharacterDetail name="Arnold Shortman" image="https://vignette.wikia.nocookie.net/heyarnold/images/f/f5/Arnold.png/revision/latest?cb=20181027162333" />);
+        render(<MemoryRouter>
+            <HeyArnoldDetail match={{
+            params:{id: '5da237699734fdcb7bef8f51'}
+         }}/>
+         </MemoryRouter>);
          
     const figure = await screen.findByRole('individual')
+    console.log(figure);
 
     expect(figure).not.toBeEmptyDOMElement(); 
     });
