@@ -53,6 +53,6 @@ describe('Hey Arnold Detail Character Tests', () => {
     const figure = await screen.findByRole('individual')
     console.log(figure);
 
-    expect(figure).not.toBeEmptyDOMElement(); 
+    expect(figure).toMatchSnapshot(); 
     });
 });

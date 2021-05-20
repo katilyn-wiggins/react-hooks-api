@@ -266,3 +266,13 @@ exports[`Hey Arnold Container displays hey arnold character/quotes on load 1`] =
   </li>
 </ul>
 `;
+
+exports[`Hey Arnold Detail Character Tests displays a single hey arnold character on the page 1`] = `
+<figure
+  aria-label="individual"
+  role="individual"
+>
+  <img />
+  <figcaption />
+</figure>
+`;
